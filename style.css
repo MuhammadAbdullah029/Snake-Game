@@ -27,11 +27,12 @@ body {
 }
 .snake-segment {
     background-color: white;
-    border-radius: 20%;
+    border-radius:20%;
 }
 .snake-head {
     background-color: white;
     border-radius: 20%;
+    scale: 1.2;
     box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.7);
 }
 .food {
@@ -68,7 +69,7 @@ body {
 }
 @media (max-width: 600px) {
     body {
-        height: 90vh;
+        height: 100vh;
         background-color: #111;
         font-family: Arial, sans-serif;
     }
